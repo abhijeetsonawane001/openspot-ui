@@ -511,7 +511,7 @@ video {
 }
 
 .bg-mesh-skyblue {
-  background-image: url('/../../images/mesh-skyblue.jpg');
+  background-image: url('./../../images/mesh-skyblue.jpg');
 }
 
 .bg-center {
