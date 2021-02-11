@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "devCss": "postcss styles/globals.css -o styles/main.css",
+    "buildCss": "NODE_ENV=production postcss styles/globals.css -o styles/main.css",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
@@ -12,6 +14,7 @@
     "autoprefixer": "^10.2.4",
     "next": "10.0.6",
     "postcss": "^8.2.4",
+    "postcss-cli": "^8.3.1",
     "react": "17.0.1",
     "react-code-blocks": "0.0.8",
     "react-dom": "17.0.1",
